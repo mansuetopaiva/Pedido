@@ -45,7 +45,7 @@
       </div>
     </div>
     <script>
-      alert=("Não clique na opção Não");
+      
       const element = document.getElementById("btn-no");
         element.addEventListener("mouseenter", () => {
         const x = Math.floor(Math.random() * window.innerWidth);
@@ -54,10 +54,11 @@
         element.style.left = x + "px";
         element.style.top = y + "px";
       });
-
+      
       function openYoutube() {
         window.open("https://www.youtube.com/watch?v=hb2ZB7uOGz4");
       }
+      alert("Não clique na opção Não");
     </script>
   </body>
 </html>
